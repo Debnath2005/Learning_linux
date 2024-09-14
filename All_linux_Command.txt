@@ -1,0 +1,111 @@
+Here’s a general list of common Linux commands, categorized for different tasks:
+
+File and Directory Management:
+ls – List directory contents
+cd – Change directory
+pwd – Print working directory (current directory)
+mkdir – Create a new directory
+rmdir – Remove an empty directory
+rm -r – Remove directories and their contents recursively
+touch – Create an empty file or update a file’s timestamp
+cp – Copy files or directories
+mv – Move or rename files or directories
+rm – Remove files or directories
+cat – Concatenate and display file content
+more/less – View file content page by page
+head/tail – Display the beginning or end of a file
+find – Search for files in a directory hierarchy
+locate – Find files by name
+File Permissions:
+chmod – Change file access permissions
+chown – Change file owner and group
+chgrp – Change group ownership
+System Monitoring:
+top – Display Linux tasks and system resource usage
+htop – Interactive process viewer
+ps – Report snapshot of current processes
+df – Show disk space usage
+du – Show directory size
+free – Display memory usage
+uptime – Show how long the system has been running
+uname -a – Show system information
+who – Show who is logged on
+dmesg – Print system boot messages
+vmstat – Report virtual memory statistics
+Networking:
+ping – Send ICMP echo requests to network hosts
+ifconfig/ip – Configure a network interface
+netstat – Show network connections, routing tables, interface statistics, etc.
+ss – Display socket statistics
+scp – Secure copy over SSH
+ssh – Secure shell to a remote machine
+wget – Download files from the web
+curl – Transfer data to or from a server
+traceroute – Trace the route packets take to a network host
+nslookup – Query Internet name servers interactively
+dig – DNS lookup
+iptables – Configure network packet filtering rules
+User Management:
+useradd – Add a new user
+usermod – Modify a user account
+userdel – Delete a user account
+passwd – Change user password
+whoami – Display the current user
+groups – Show group memberships
+sudo – Execute a command as another user, usually root
+Disk and Filesystem Management:
+fdisk – Partition table manipulator for Linux
+mkfs – Create a filesystem on a device
+mount – Mount a filesystem
+umount – Unmount a filesystem
+fsck – File system consistency check and repair
+blkid – Locate/print block device attributes
+parted – Manage partitions
+Package Management (for different distros):
+Debian/Ubuntu:
+apt/apt-get – Package manager for Debian-based distributions
+dpkg – Debian package manager
+Red Hat/CentOS:
+yum/dnf – Package manager for RPM-based distributions
+rpm – RPM package manager
+Process Management:
+kill – Terminate a process by ID
+killall – Terminate processes by name
+bg – Resume a suspended job in the background
+fg – Bring a background job to the foreground
+jobs – List active jobs
+Text Editors:
+nano – Simple command-line text editor
+vim – Advanced text editor
+gedit – GUI text editor (for GNOME)
+emacs – Powerful, extensible text editor
+Archiving and Compression:
+tar – Archive files
+gzip – Compress files
+gunzip – Decompress files
+zip – Package and compress files
+unzip – Extract compressed files
+Search and Filter:
+grep – Search text using patterns
+sed – Stream editor for filtering and transforming text
+awk – Pattern scanning and processing language
+sort – Sort lines of text files
+cut – Remove sections from each line of files
+Shell Scripting and Environment:
+echo – Display a line of text
+export – Set an environment variable
+env – Show environment variables
+alias – Create a shortcut for a command
+source – Execute commands from a file in the current shell
+System Control:
+shutdown – Turn off or reboot the machine
+reboot – Reboot the system
+systemctl – Control the systemd system and service manager
+service – Start, stop, or check the status of a service
+crontab – Schedule commands to run at specific times
+at – Schedule a command to run once at a specific time
+Compression/Decompression:
+gzip/gunzip – Compress/decompress .gz files
+zip/unzip – Compress/decompress .zip files
+tar – Archive files
+This is not an exhaustive list, but these are some of the most commonly used Linux commands. Linux has thousands of commands, many of which come with extensive options. You can always use the man command (e.g., man ls) to get a detailed manual for any command.
