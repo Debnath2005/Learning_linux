@@ -1,0 +1,263 @@
+    1  pwd
+    2  ls
+    3  cd Desktop/
+    4  ls
+    5  cd demo
+    6  ls
+    7  cd 'git and github'
+    8  ls
+    9  cd demo1/
+   10  touch file.txt
+   11  ls
+   12  ls
+   13  git branch
+   14  cd desktop/git/demo1
+   15  cd desktop
+   16  ls
+   17  cd git
+   18  cd demo1
+   19  touch demo.txt temp.log temp1.log
+   20  echo "Demo1" >> README.md
+   21  touch .gitignore
+   22  nano .gitignore
+   23  git init
+   24  git add .
+   25  git commit -m "first commit"
+   26  git remote add origin https://github.com/Debnath2005/Demo2.git
+   27  git push 
+   28  git push -u orgin master
+   29  git push -u origin master
+   30  cd ..
+   31  cd demo3
+   32  makdir demo3
+   33  mkdir demo3
+   34  cd demo3
+   35  touch Text.txt random.log
+   36  echo "DEMO 3" << README.md
+   37  echo "DEMO 3" >> README.md
+   38  git init
+   39  touch .gitignore
+   40  nano .gitignore
+   41  git add .
+   42  git commit -m "first commit"
+   43  git branch -M main
+   44  git remote add origin https://github.com/Debnath2005/demo3.git 
+   45  git push -u origin main
+   46  cd ..
+   47  mkdir demo3
+   48  mkdir demo4
+   49  cd demo4
+   50  touch text.txt temp1.log temp2.log
+   51  touch .gitignore
+   52  nano .gitignore
+   53  echo "DEMO 4">>README.md
+   54  git init
+   55  git add .
+   56  git commit -m "demo 4"
+   57  git remote add origin https://github.com/Debnath2005/Demo4.git
+   58  git branch -M main
+   59  git push -u origin main
+   60  git status
+   61  git branch
+   62  touch text2.txt text3.txt
+   63  git status
+   64  git add text2.txt text3.txt
+   65  git status
+   66  git commit -m "Demo4 second commit"
+   67  git push
+   68  git config --global user.name
+   69  git config --global user.email
+   70  git config --global user.name "Debnath Mondal"
+   71  git config --global user.name
+   72  cd ..
+   73  mkdir demo5
+   74  torch feat1.txt 
+   75  touch feat1.txt
+   76  echo "Demo 5" <<README.md
+   77  echo "Demo 5" >> README.md
+   78  git init
+   79  git add .
+   80  cd demo5
+   81  touch feat.txt
+   82  echo "DEMO5">>README.md
+   83  git init
+   84  git add .
+   85  git commit -m "first commit"
+   86  touch feat2.txt .gitignore
+   87  git add .
+   88  git commit -m "second commit"
+   89  touch temp1.log feat.log 
+   90  nano .gitignore
+   91  git commit -m "third commit"
+   92  git add .
+   93  git commit -m "third commit"
+   94  git branch -M main
+   95  git remote add origin https://github.com/Debnath2005/Demo5.git
+   96  git push -u origin main
+   97  cd ..
+   98  mkdir demo6-branching
+   99  cd demo6-branching
+  100  echo "DEMO6- Branching">>README.md
+  101  git init
+  102  git add .
+  103  git commit -m "first commit"
+  104  git branch -M main
+  105  git remote add origin https://github.com/Debnath2005/Demo6-branching.git
+  106  git push -u origin main
+  107  git checkout -b "branch1"
+  108  touch text.txt .gitignore random.log
+  109  nano .gitignore
+  110  git add .
+  111  git commit -m "commiting in branch"
+  112  git push
+  113  git push -u origin branch1
+  114  git checkout main
+  115  git branch
+  116  git marge main/branch1
+  117  git merge main/branch1
+  118  git merge branch1
+  119  cd ..
+  120  mkdir demo7-branching
+  121  cd demo7-branching/
+  122  touch demo1.txt
+  123  echo "Demo7-Branching" >>README.md
+  124  git init
+  125  git add .
+  126  git commit -m "first commit"
+  127  git checkout -b branch2
+  128  git branch
+  129  touch demo2.txt .gitignore ignore.log
+  130  nano .gitignore
+  131  git add .
+  132  git commit -m "second commit"
+  133  git checkout origin
+  134  git checkout main
+  135  git checkout master
+  136  git branch -M main
+  137  git merge branch2
+  138  git push -u origin main
+  139  git remote add origin https://github.com/Debnath2005/Demo7-branching.git
+  140  git push -u origin main
+  141  git branch
+  142  git checkout -b "branch"
+  143  touch text3.txt
+  144  git add .
+  145  git commit -m "third commit"
+  146  git push
+  147  git push origin branch
+  148  git checkout main
+  149  git pull origin main
+  150  git merge branch
+  151  git push origin main
+  152  cd ..
+  153  cd mkdir demo8-branching
+  154  mkdir demo8-branching
+  155  cd demo8-branching/
+  156  touch TEXT1.txt
+  157  echo "LEARNING BRANCHING">> README.md
+  158  git init
+  159  git add .
+  160  git commit -m "first commit"
+  161  git branch -M main
+  162  git remote add origin https://github.com/Debnath2005/Demo8-branching.git
+  163  git push -u origin
+  164  git push -u origin
+  165  git push -u origin main
+  166  git checkout -b "branch"
+  167  touch demo.txt
+  168  git add .
+  169  git commit -m "second commit"
+  170  git push 
+  171  git push origin branch
+  172  git checkout main
+  173  git merge branch
+  174  git push origin main
+  175  cd desktop
+  176  cd git
+  177  mkdir demo9-branching
+  178  cd demo9-branching/
+  179  echo "LEARNING GIT ">>README>md
+  180  touch file1.txt
+  181  git init
+  182  git add .
+  183  git commit -m "first commit"
+  184  git remote add origin https://github.com/Debnath2005/Demo9-branching.git
+  185  git push -u origin master
+  186  git checkout -b "branch"
+  187  git branch
+  188  touch file2.txt .gitignore random.log
+  189  nano .gitignore
+  190  git add .
+  191  git commit -m "second commit"
+  192  git push branch
+  193  git push -u branch
+  194  git push -u origin branch
+  195  git checkout main
+  196  git checkout master
+  197  git merge branch
+  198  git pull
+  199  git merge branch
+  200  cd ..
+  201  mkdir demo10-branching
+  202  cd demo10-branching/
+  203  touch file1.txt .gitignore temp.log
+  204  nano .gitignore
+  205  git init
+  206  echo "LEARNING GIT" >> README.md
+  207  git add .
+  208  git commit -m "first commit"
+  209  git remote add origin https://github.com/Debnath2005/Demo10-branching.git
+  210  git branch -M main
+  211  git push -u origin main
+  212  git checkout -b "branch"
+  213  touch file2.txt
+  214  git add .
+  215  git commit -m "second commit"
+  216  git push origin branch
+  217  git checkout main
+  218  git pull
+  219  git pull origin
+  220  git merge branch
+  221  git pull origin main
+  222  git merge branch
+  223  git push origin main
+  224  cd git
+  225  cd desktop
+  226  cd git
+  227  cd demo10-branching/
+  228  touch dug.txt
+  229  git add .
+  230  git commit -m "dug code"
+  231  git log --oneline
+  232  git reset --hard 4a27c43 
+  233  git log --oneline
+  234  touch dug.txt
+  235  git add .
+  236  git commit -m "second bug"
+  237  git log --oneline
+  238  git revert 2b3bd4a 
+  239  ls -a
+  240  clear
+  241  ls -l
+  242  clear
+  243  ls -d
+  244  clear
+  245  cd Desktop/
+  246  pwd
+  247  cd ..
+  248  ls -a
+  249  rm -r .git
+  250  rm -r .git/
+  251  clear
+  252  cd desktop
+  253  mkdir demo.txt
+  254  mkdir linux
+  255  ls
+  256  cd linux
+  257  mkdir abc pqr rst
+  258  ls
+  259  mkdir linux/abc deb
+  260  mkdir abc/dev
+  261  cd abc
+  262  ls
+  263  history > abc.txt
