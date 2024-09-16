@@ -16,11 +16,15 @@ more/less – View file content page by page
 head/tail – Display the beginning or end of a file
 find – Search for files in a directory hierarchy
 locate – Find files by name
+
 File Permissions:
+
 chmod – Change file access permissions
 chown – Change file owner and group
 chgrp – Change group ownership
+
 System Monitoring:
+
 top – Display Linux tasks and system resource usage
 htop – Interactive process viewer
 ps – Report snapshot of current processes
@@ -32,7 +36,9 @@ uname -a – Show system information
 who – Show who is logged on
 dmesg – Print system boot messages
 vmstat – Report virtual memory statistics
+
 Networking:
+
 ping – Send ICMP echo requests to network hosts
 ifconfig/ip – Configure a network interface
 netstat – Show network connections, routing tables, interface statistics, etc.
@@ -45,7 +51,9 @@ traceroute – Trace the route packets take to a network host
 nslookup – Query Internet name servers interactively
 dig – DNS lookup
 iptables – Configure network packet filtering rules
+
 User Management:
+
 useradd – Add a new user
 usermod – Modify a user account
 userdel – Delete a user account
@@ -62,19 +70,25 @@ fsck – File system consistency check and repair
 blkid – Locate/print block device attributes
 parted – Manage partitions
 Package Management (for different distros):
+
 Debian/Ubuntu:
+
 apt/apt-get – Package manager for Debian-based distributions
 dpkg – Debian package manager
 Red Hat/CentOS:
 yum/dnf – Package manager for RPM-based distributions
 rpm – RPM package manager
+
 Process Management:
+
 kill – Terminate a process by ID
 killall – Terminate processes by name
 bg – Resume a suspended job in the background
 fg – Bring a background job to the foreground
 jobs – List active jobs
+
 Text Editors:
+
 nano – Simple command-line text editor
 vim – Advanced text editor
 gedit – GUI text editor (for GNOME)
@@ -97,7 +111,9 @@ export – Set an environment variable
 env – Show environment variables
 alias – Create a shortcut for a command
 source – Execute commands from a file in the current shell
+
 System Control:
+
 shutdown – Turn off or reboot the machine
 reboot – Reboot the system
 systemctl – Control the systemd system and service manager
