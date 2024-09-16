@@ -236,28 +236,99 @@
   236  git commit -m "second bug"
   237  git log --oneline
   238  git revert 2b3bd4a 
-  239  ls -a
-  240  clear
-  241  ls -l
-  242  clear
-  243  ls -d
-  244  clear
-  245  cd Desktop/
-  246  pwd
-  247  cd ..
-  248  ls -a
-  249  rm -r .git
-  250  rm -r .git/
-  251  clear
-  252  cd desktop
-  253  mkdir demo.txt
-  254  mkdir linux
-  255  ls
-  256  cd linux
-  257  mkdir abc pqr rst
-  258  ls
-  259  mkdir linux/abc deb
-  260  mkdir abc/dev
-  261  cd abc
-  262  ls
-  263  history > abc.txt
+  239  pwd
+  240  cd desktop
+  241  cd linux
+  242  ls
+  243  ls -a
+  244  cd abc
+  245  ls -a
+  246  rm -rf .git
+  247  ls -a
+  248  cd ..
+  249  ls -a
+  250  git add .
+  251  git commit -m "learning linux"
+  252  git remote add origin https://github.com/Debnath2005/Learning_linux.git
+  253  git branch -M main
+  254  git push -u origin main
+  255  git status
+  256  ls 
+  257  touch file1.txt
+  258  git add .
+  259  git commit -m "file1 added"
+  260  git push
+  261  git pull
+  262  echo "Hello Dev">> DEV.txt
+  263  nano DEV.txt
+  264  echo "Hello Dev"
+  265  ls
+  266  cat DEV.txt
+  267  rm DEV.txt
+  268  ls
+  269  rm abc
+  270  rmdir abc
+  271  rmdir deb
+  272  ls
+  273  rm -r abc
+  274  ls
+  275  ls pqr
+  276  cd pqr | echo "i am in pqr file">> pqr.txt 
+  277  cd pqr
+  278  ls
+  279  echo "i am in pqr file">> pqr.txt 
+  280  ls
+  281  cat pqr.txt 
+  282  cp pqr.txt pqr rst
+  283  cd ..
+  284  cp pqr.txt pqr rst
+  285  cp -r pqr.txt pqr rst
+  286  cd rst
+  287  ls
+  288  rm pqr.txt
+  289  ls
+  290  rm -r pqr
+  291  ls
+  292  cd ..
+  293  cp pqr.txt pqr rst
+  294  cd rst
+  295  ls
+  296  touch rst.txt
+  297  mv rst.txt pqr
+  298  cd ..
+  299  cd rst
+  300  ls
+  301  cd ..
+  302  cd pqr
+  303  ls
+  304  ls -a
+  305  ls -p
+  306  cd ..
+  307  touch new.txt
+  308  ls
+  309  mv new.txt pqr
+  310  ls
+  311  cd ..
+  312  cd pqr
+  313  cd linux/
+  314  cd pqr
+  315  ls
+  316  cd ..
+  317  ln -s ../linux/Day3 Doc01 Terminal CommandsDay3 Doc01 Terminal Commands
+  318   ln -s ../linux/Linux_Commands.pdf ~/QuickLink/
+  319   ln -s ../linux/Linux_Commands.pdf QuickLink/
+  320   ln -s ../linux/Linux_Commands.pdf ~/Desktop/Linux
+  321  ls
+  322   ln -s ../linux/Linux_Commands.pdf ~/Desktop/Linux/pqr
+  323   ln -s ../linux/Linux_Commands.pdf ~/QuickLink/
+  324  ls
+  325  ls -l ~/QuickLink
+  326  cd ~
+  327  ls
+  328  mkdir QuickLink
+  329   ln -s ../linux/Linux_Commands.pdf ~/QuickLink/
+  330  history>history.txt
+  331  nano history.txt 
+  332  cd desktop
+  333  cd linux
+  334  history>Day2.txt
